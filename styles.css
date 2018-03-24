@@ -1,0 +1,33 @@
+
+body {
+	background: tan;
+
+}
+
+h1 {
+	font-family: serif;
+	font-size:24pt;
+}
+	
+.space{
+	font-size: 16;
+}
+  .myimage {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	
+h2 {
+	font-family:"Times new roman";
+}
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
