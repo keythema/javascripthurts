@@ -1,0 +1,47 @@
+# javascripthurts
+learning so dont follow this, jus sayin!
+
+<Title>When I was in Spain...</Title>	
+<head>
+	<body>
+
+
+		<link rel="stylesheet"
+		type="text/css"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+		/>
+		
+		<link rel="stylesheet"
+		type="text/css"
+		href="styles.css"
+		/>
+	
+	
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Life Of Key</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="github.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="contactkat.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+		
+		
+		
+	<div class="container">
+	<h1><b>5 Reasons you should visit Spain ASAP!!</b></h1>
+		
+	<img src="https://voyages.michelin.fr/sites/default/files/styles/poi_slideshow/public/images/travel_guide/voyage_media-NX-22667/alhambra.jpg?itok=SPQlxkWu" <div class="center"/>
+		
+		
+			<h2><p class="wordsize"><p class="bodyB"><span class="indent">I</span> am happy to report that learning code really isn't all that hard. The key thing that you have to remember to do is study everyday to learn as much new material about the language as possible, and practive as much as you can so that you build your memory bank!</p></h2>	
+		
+		
+		
+	</body>
+</Html>
