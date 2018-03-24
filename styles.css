@@ -12,7 +12,11 @@ h2 {
 	Font-Size: 45pt;
 	color: Blue;
 }
-	
+
 .indent{
-margin-left:50pt;
+margin-left:10px;	
+}
+
+.indent1{
+margin-left:1000px;
 }
