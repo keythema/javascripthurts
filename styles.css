@@ -6,6 +6,12 @@ h1 {
 	font-family: serif;
 	font-size:24pt;
 }
+
+h2 {
+	font-family:"Times New Roman";
+	Font-Size: 16pt;
+	color: Blue;
+}
 	
 id=.center {
     margin: auto;
