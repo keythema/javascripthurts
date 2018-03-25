@@ -6,7 +6,9 @@ body {
 
 h1 {
 	font-family: serif;
-	font-size:24pt;
+	font-size:40pt;
+	color: #000000;
+	text-align: center;
 }
 	
 .space{
