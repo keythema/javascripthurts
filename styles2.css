@@ -1,0 +1,81 @@
+
+body {
+	background-color: #f9f7b3;
+	margin: left;
+}
+
+h1 {
+	font-size:36;
+	font-family:"Brush Script M"
+}
+h2 {
+	font-size: 24pt;
+	font-family:"comic sans ms";
+	text-align: center;
+}
+h3 {
+	font-size: 16pt;
+	font-family:"Arial sans-serif";
+	color:"solid black";
+	margin-left: auto;
+	text-align: center;
+}
+
+.b1 {
+	Font-size: 22pt; 
+	font-family:"times new roman";
+	color:blue;
+	
+}
+
+
+.indent{
+	margin-left: 10px;
+}
+
+//** This is for the list on home page about barcelona cities**//
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	 display: block;
+    margin-left: center;
+    margin-right: center;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/** This is for centering the image on page one**/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {box-sizing:border-box}
+
+/** This is for my carousel gallery**/
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+ /** This is for centering the image on page one**/
