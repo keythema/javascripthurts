@@ -1,28 +1,138 @@
 <html>	
-	<head>
-		<title>This is my first web page</title
-		>
-		<link rel="stylesheet"
-		type="text/css"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
-		/>
+		<head>
+			<title>AboutMe</title
+			>
+			<link rel="stylesheet"
+			type="text/css"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+			/>
+			
+			<link rel="stylesheet"
+			type="text/css"
+			href="styles2.css"
+			/>
+			
+			<script src="http://code.jquery.com/jquery-1.11.3.min.js">
+			</script>
 		
-	</head>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
 	<body>
+	 
+	
+		
+			<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#"></a>
+			</div>
+			<ul class="nav navbar-nav">
+			  <li><a href="github.html">Home</a></li>
+			  <li class="active"><a href="aboutme.html">About Me</a></li>
+			  <li><a href="contactkat.html">Contact</a></li>
+			</ul>
+		  </div>
+		</nav>
 
-		<a href= "index.html">home
-		</a>
-		&nbsp
-		<a href= "aboutme.html"> about me
-		</a>
-		&nbsp
-		<a href= "contactkat.html"> contact
-		</a>
-		<hr></hr>
-
-		<h1>About me Bitches
+		<h1>So Where to Next...
 		</h1>
-		<img src="https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/10940604_768694369865271_161037781324257874_n.jpg?_nc_cat=0&oh=45d45c6e2e0e00fe28804bb3c5c2fb5e&oe=5B4CEF09" 
-		width="30%"/>
+	
+		<h3>There are still so many places that I want to visit!! I mean Spain was amazing and everything, but it was just the tip of the iceburg. Here are some photos of my future destinations.  Enjoy!!</h3>
+	
+	
+		
+		
+  </style>
+</head>
+<body>
+
+<div class="container">
+  
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/630x315/format/jpg/quality/85/http%3A%2F%2Fi.huffpost.com%2Fgen%2F4566804%2Fimages%2Fn-QUEBEC-CITY-QUEBEC-628x314.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Canada</h3>
+          <p>Looking a bit chilly right now, but its on my bucket list</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://www.prologis.com/sites/corporate/files/styles/2_0__md/public/images/2017/03/CZ_Prague%2C-Czech-Republic.jpg?itok=0VMgKMi7https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2d/fb/prague.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Prague, Czech Republic</h3>
+          <p>Such a magical city!!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="http://www.itsgoa.com/wp-content/uploads/2016/11/usa-tours-hawaii-oahu-honolulu-waikiki-beach-l-al-780x405.jpg" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Hawaii, USA</h3>
+          <p>This beautiful island is just down the street, Perhaps I'll go here first</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://cdn.aarp.net/content/dam/travel/destination-images/mexico/cancun/1400-poi-cancun-isla-mujeres-beach.imgcache.revbfa07ddb8004a07e2fe07d37b6a2ac1b.web.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Cancun, Mexico</h3>
+          <p>Wall or not, Im going to Mexico!<p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
 	</body>
 </html>
